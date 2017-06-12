@@ -111,7 +111,7 @@ h6 { font-size:10px;}
 /*banner start*/
 
 /*头部开始*/
-.g_top{ height:151px; min-width:1082px; background:#efefef url(../images/topbg.jpg) repeat-x;}
+.g_top{ height:151px; min-width:1082px; }
 .top_t{ height:30px; line-height:30px;color:#333333;}
 .top_t p{ float:right;}
 .top_t p a{ padding: 0 10px; color:#333333;display:inline-block; }
@@ -132,7 +132,7 @@ h6 { font-size:10px;}
 .nav li{ float:left; font-size:16px; }
 .nav .lastli{border-right: none;}
 .nav li a{ display:inline-block; padding: 0 35px; color:#fff; line-height:50px; }
-.nav li a:hover,.nav .cur a{color: #fff;background: #443c3c;}
+.nav li a:hover{color: #fff;background: #443c3c;}
  
 /*头部结束*/
 
@@ -478,3 +478,59 @@ dl.nones {border-bottom: medium none;}
 .newprod_button{ padding:5px 0 0 15px;}
 .newprod_view{ float:left; width:46px; height:20px; margin-right:5px;}
 .newprod_view:hover{filter:alpha(opacity=70); -moz-opacity:0.7; opacity: 0.7;}
+
+
+.clientIntro h1 {
+    overflow: hidden;
+    height: 54px;
+    line-height: 54px;
+    background: #73C12D;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.ciModule {
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 60px;
+    padding: 0px 0px 20px;
+    background: url(img/lineBg.jpg) repeat-y 12px 0px;
+}
+
+.ciText {
+    position: relative;
+    margin: 40px 0px 0px;
+    padding: 0px 0px 0px 86px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #627184;
+}
+.ciText h2 {
+    height: 32px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.ciText h2 b {
+    position: absolute;
+    left: -86px;
+    top: 4px;
+    width: 76px;
+    height: 24px;
+    font-weight: normal;
+    /*background: url(img/numIco.jpg) no-repeat;*/
+}
+.ciText h2 span {
+    padding: 0px 20px;
+    display: block;
+    float: left;
+    background: #FCC261;
+    line-height: 32px;
+    height: 32px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
